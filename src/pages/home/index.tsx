@@ -15,6 +15,10 @@ export function Home() {
 			<HomeContent>
 				<Item />
 				<Item />
+				<Item />
+				<Item />
+				<Item />
+				<Item />
 			</HomeContent>
 		</HomeContainer>
 	)

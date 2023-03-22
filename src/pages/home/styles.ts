@@ -6,6 +6,9 @@ export const HomeContainer = styled.main`
 	margin: 0 auto;
 	max-width: 1120px;
 	width: 100%;
+	height: auto;
+
+	padding: 0.5rem;
 	gap: 3rem;
 `
 
@@ -35,7 +38,6 @@ export const PublicationLabels = styled.div`
 export const HomeContent = styled.section`
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-
 	gap: 2rem;
 `
 
@@ -47,4 +49,6 @@ export const Item = styled.div`
 
 	background: ${(props) => props.theme['gray-800']};
 	border-radius: 10px;
+
+	cursor: pointer;
 `
